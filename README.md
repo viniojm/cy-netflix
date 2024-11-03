@@ -10,6 +10,7 @@
 - Install Cypress
 - Install NodeJS
 
+
 ## Installing dependencies and tools:
 Open the terminal in the `cypress` folder and run `npm install`
 
@@ -18,4 +19,6 @@ To execute, use the Cypress command in the root of the tests folder:
 
 `npx cypress open` -> To open Cypress with all automated test cases;
 `npx cypress run` -> To run Cypress tests in a command-line environment;
+
+- Change your email and password in the `login-user.json` file
 
