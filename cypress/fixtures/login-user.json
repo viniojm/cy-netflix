@@ -1,0 +1,18 @@
+{
+    "success": {
+        "email": "yourEmail@gmail.com", 
+        "password": "yourPassword"
+    },
+    "wrong_pass": {
+        "email": "test@test.com",
+        "password": "1345!"
+    },
+    "invalid_email": {
+        "email": "test",
+        "password": "Aaaaaa1!"
+    },
+    "invalid_password": {
+        "email": "test@gmail.com",
+        "password": "Aa"
+    }
+}
