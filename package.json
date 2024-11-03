@@ -1,0 +1,26 @@
+{
+  "name": "cy-netflix",
+  "version": "1.0.0",
+  "description": "Test automation project to validate core functionalities of the Netflix website, developed with Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "e2e",
+    "testing",
+    "netflix",
+    "test",
+    "automation",
+    "web",
+    "testing",
+    "QA"
+  ],
+  "author": "Vinicius Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.15.1"
+  }
+}
