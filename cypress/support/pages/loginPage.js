@@ -36,6 +36,14 @@ class LoginPage {
         cy.get('a[href="/LoginHelp"]').should('be.visible').should('have.text', 'Esqueceu a senha?').click()
         cy.get('p[data-uia="password-reset-subheader"]').should('be.visible').should('have.text', 'Como você prefere redefinir sua senha?')
     }
+
+    toDoLogin(user){
+        cy.visit('/login')
+        cy.get('button[class*=onetrust-close-btn-ui]').click()
+        cy.get('input[data-uia="login-field"]').type(user.email)
+        cy.get('input[data-uia="password-field"]').type(user.password)
+        cy.get('button[data-uia="login-submit-button"]').click()
+    }
 }
 
 export default new LoginPage()
